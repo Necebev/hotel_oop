@@ -10900,3 +10900,76 @@ Stack trace:
 #3 C:\Users\asd\Desktop\www\public\index.php(28): App\Routing\Router->handle()
 #4 {main}
   thrown in C:\Users\asd\Desktop\www\app\Controllers\GuestController.php on line 43
+[21-May-2025 09:08:21 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotel.rooms' doesn't exist
+[21-May-2025 09:08:23 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotel.guests' doesn't exist
+[21-May-2025 09:08:26 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotel.rooms' doesn't exist
+[21-May-2025 09:08:40 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotel.rooms' doesn't exist
+[21-May-2025 09:11:37 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotel.rooms' doesn't exist
+[21-May-2025 09:11:37 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotel.rooms' doesn't exist
+[21-May-2025 09:11:43 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotel.rooms' doesn't exist
+[21-May-2025 09:13:12 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotel.rooms' doesn't exist
+[21-May-2025 10:03:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "App\Models\Reservation" not found in C:\xampp\htdocs\www\app\Controllers\ReservationController.php:10
+Stack trace:
+#0 C:\xampp\htdocs\www\app\Routing\Router.php(59): App\Controllers\ReservationController->__construct()
+#1 C:\xampp\htdocs\www\app\Routing\Router.php(28): App\Routing\Router->handleGetRequests('/reservations')
+#2 C:\xampp\htdocs\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('GET', '/reservations')
+#3 C:\xampp\htdocs\www\public\index.php(29): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\app\Controllers\ReservationController.php on line 10
+[21-May-2025 10:03:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "App\Models\Reservation" not found in C:\xampp\htdocs\www\app\Controllers\ReservationController.php:10
+Stack trace:
+#0 C:\xampp\htdocs\www\app\Routing\Router.php(59): App\Controllers\ReservationController->__construct()
+#1 C:\xampp\htdocs\www\app\Routing\Router.php(28): App\Routing\Router->handleGetRequests('/reservations')
+#2 C:\xampp\htdocs\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('GET', '/reservations')
+#3 C:\xampp\htdocs\www\public\index.php(29): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\app\Controllers\ReservationController.php on line 10
+[21-May-2025 10:04:44 Europe/Berlin] PHP Warning:  Undefined variable $reservationcontroller in C:\xampp\htdocs\www\app\Routing\Router.php on line 60
+[21-May-2025 10:04:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function index() on null in C:\xampp\htdocs\www\app\Routing\Router.php:60
+Stack trace:
+#0 C:\xampp\htdocs\www\app\Routing\Router.php(28): App\Routing\Router->handleGetRequests('/reservations')
+#1 C:\xampp\htdocs\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('GET', '/reservations')
+#2 C:\xampp\htdocs\www\public\index.php(29): App\Routing\Router->handle()
+#3 {main}
+  thrown in C:\xampp\htdocs\www\app\Routing\Router.php on line 60
+[21-May-2025 10:04:55 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'floor' in 'order clause'
+[21-May-2025 10:04:55 Europe/Berlin] PHP Warning:  Undefined variable $rooms in C:\xampp\htdocs\www\app\views\reservations\index.php on line 4
+[21-May-2025 10:04:55 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\www\app\views\reservations\index.php on line 4
+[21-May-2025 10:06:43 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'floor' in 'order clause'
+[21-May-2025 10:06:43 Europe/Berlin] PHP Warning:  Undefined variable $rooms in C:\xampp\htdocs\www\app\views\reservations\index.php on line 4
+[21-May-2025 10:06:43 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\www\app\views\reservations\index.php on line 4
+[21-May-2025 10:08:34 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'floor' in 'order clause'
+[21-May-2025 10:09:36 Europe/Berlin] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'floor' in 'order clause'
+[21-May-2025 10:13:54 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\www\app\views\reservations\index.php on line 14
+[21-May-2025 10:13:54 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\www\app\views\reservations\index.php on line 14
+[21-May-2025 10:13:54 Europe/Berlin] PHP Warning:  Undefined variable $room in C:\xampp\htdocs\www\app\views\reservations\index.php on line 18
+[21-May-2025 10:13:54 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\xampp\htdocs\www\app\views\reservations\index.php on line 18
+[21-May-2025 11:32:45 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mysql.rooms' doesn't exist
+[21-May-2025 11:32:45 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mysql.guests' doesn't exist
+[21-May-2025 11:38:13 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'use hotel' at line 1
+[21-May-2025 11:38:13 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1049 Unknown database 'hotel'
+[21-May-2025 11:38:13 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1049 Unknown database 'hotel'
+[21-May-2025 11:38:13 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1049 Unknown database 'hotel'
+[21-May-2025 11:38:13 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mysql.rooms' doesn't exist
+[21-May-2025 11:38:13 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mysql.guests' doesn't exist
+[21-May-2025 11:38:13 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'hotel'
+[21-May-2025 11:38:13 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Database connection error. in C:\xampp\htdocs\www\app\Database\Database.php:36
+Stack trace:
+#0 C:\xampp\htdocs\www\app\Database\Database.php(43): App\Database\Database->__construct(Array)
+#1 C:\xampp\htdocs\www\app\Models\Model.php(17): App\Database\Database::getInstance()
+#2 C:\xampp\htdocs\www\app\Models\Room.php(18): App\Models\Model->__construct()
+#3 C:\xampp\htdocs\www\app\Controllers\RoomController.php(10): App\Models\Room->__construct()
+#4 C:\xampp\htdocs\www\app\Routing\Router.php(51): App\Controllers\RoomController->__construct()
+#5 C:\xampp\htdocs\www\app\Routing\Router.php(28): App\Routing\Router->handleGetRequests('/rooms')
+#6 C:\xampp\htdocs\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('GET', '/rooms')
+#7 C:\xampp\htdocs\www\public\index.php(50): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\xampp\htdocs\www\app\Database\Database.php on line 36
+[21-May-2025 11:38:13 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'use hotel' at line 1
+[21-May-2025 11:38:13 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1049 Unknown database 'hotel'
+[21-May-2025 11:38:13 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1049 Unknown database 'hotel'
+[21-May-2025 11:38:13 Europe/Berlin] SQLSTATE[42000]: Syntax error or access violation: 1049 Unknown database 'hotel'
+[21-May-2025 11:38:13 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mysql.rooms' doesn't exist
+[21-May-2025 11:38:13 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mysql.guests' doesn't exist
+[21-May-2025 11:38:39 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mysql.rooms' doesn't exist
+[21-May-2025 11:38:39 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mysql.guests' doesn't exist

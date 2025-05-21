@@ -3,6 +3,7 @@ namespace App\Routing;
 use App\Controllers\HomeController;
 use App\Controllers\RoomController;
 use App\Controllers\GuestController;
+use App\Controllers\ReservationController;
 
 class Router {
 
@@ -54,6 +55,10 @@ class Router {
                 $guestController = new GuestController();
                 $guestController->index();
                 break;
+            case '/reservations':
+                $reservationController = new ReservationController();
+                $reservationController->index();
+                break;
             default:
                 $this->notFound();
 
@@ -94,6 +99,20 @@ class Router {
                 $guestController =  new GuestController();
                 $guestController->edit($id);
                 break;
+            case '/reservations':
+                if (!empty($data)) {
+                    $reservationController = new ReservationController();
+                    $reservationController->save($data);
+                }
+                break;
+            case '/reservations/create':
+                $reservationController=  new ReservationController();
+                $reservationController->create();
+                break;
+            case '/reservations/edit':
+                $reservationController=  new ReservationController();
+                $reservationController->edit($id);
+                break;
             default:
                 $this->notFound();
         }
@@ -112,6 +131,11 @@ class Router {
                 $guestController =  new GuestController();
                 $guestController->update($id, $data);
                 break;
+            case '/reservations':
+                $id = $data['id'] ?? null;
+                $reservationController =  new ReservationController();
+                $reservationController->update($id, $data);
+                break;
             default:
                 $this->notFound();
         }
@@ -128,6 +152,10 @@ class Router {
             case '/guests':
                 $guestController =  new GuestController();
                 $guestController->delete((int) $data['id']);
+                break;
+            case '/reservations':
+                $reservationController =  new ReservationController();
+                $reservationController->delete((int) $data['id']);
                 break;
             default:
                 $this->notFound();

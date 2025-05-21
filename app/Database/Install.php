@@ -41,6 +41,8 @@ class Install extends Database
 
     }
 
+    
+
     public function createTable(string $tableName, string $tableBody, string $dbName): bool
     {
         try {
@@ -93,7 +95,9 @@ class Install extends Database
             guest_id INT NOT NULL,
             days INT NOT NULL,
             date DATE NOT NULL,
-            PRIMARY KEY (`id`)
+            PRIMARY KEY (`id`),
+            FOREIGN KEY (room_id) REFERENCES rooms(ID),
+            FOREIGN KEY (guest_id) REFERENCES guests(ID)
         ";
 
         return $this->createTable("reservations", $tableBody, $dbName);
