@@ -1,13 +1,17 @@
 <?php
-
+use App\Database\Database;
+use App\Views\Display;
 $tableBody = "";
-foreach ($reservations as $reservation) {
+foreach ($reservations as $reservation) { // Store reservation ID in session for potential use
+    $floor = Database::getInstance()->execSql("select floor, room_number from rooms where id = $reservation->room_id")[0];
+    $room_number = $floor['floor'] . ($floor['room_number'] < 10 ? '0' . $floor['room_number'] : $floor['room_number']);
+    $guest = Database::getInstance()->execSql("select name from guests where id = $reservation->guest_id")[0]['name'];
     $tableBody .= <<<HTML
             <tr>
                 <td>{$reservation->id}</td>
-                <td>{$reservation->room_id}</td>
-                <td>{$reservation->guest_id}</td>
-                <td>{$reservation->days}</td>
+                <td>{$room_number}</td>
+                <td>{$guest}</td>
+                <td>{$reservation->days} nap</td>
                 <td>{$reservation->date}</td>
                 <td class='flex float-right'>
                     <form method='post' action='/reservations/edit'>
@@ -29,8 +33,8 @@ $html = <<<HTML
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>Szoba ID</th>
-                    <th>Vendég ID</th>
+                    <th>Szobaszám</th>
+                    <th>Vendég</th>
                     <th>Foglalás hossza</th>
                     <th>Dátum</th>
                     <th>

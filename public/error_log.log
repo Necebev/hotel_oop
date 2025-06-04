@@ -10973,3 +10973,449 @@ Stack trace:
 [21-May-2025 11:38:13 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mysql.guests' doesn't exist
 [21-May-2025 11:38:39 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mysql.rooms' doesn't exist
 [21-May-2025 11:38:39 Europe/Berlin] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mysql.guests' doesn't exist
+[21-May-2025 15:02:40 Europe/Berlin] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`hotel`.`reservations`, CONSTRAINT `reservations_ibfk_1` FOREIGN KEY (`room_id`) REFERENCES `rooms` (`id`))
+[23-May-2025 18:36:33 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 11
+[23-May-2025 18:40:35 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 18:40:35 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 18:40:35 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 18:40:35 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 26
+[23-May-2025 20:58:22 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 20:58:22 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 20:58:22 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 20:58:22 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 26
+[23-May-2025 21:01:44 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:01:44 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:01:44 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:01:44 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 26
+[23-May-2025 21:01:53 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:01:53 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:01:53 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:01:53 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 26
+[23-May-2025 21:02:02 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:02:02 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:02:02 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:02:02 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 26
+[23-May-2025 21:02:12 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:02:12 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:02:12 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:02:12 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 26
+[23-May-2025 21:02:25 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:02:25 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:02:25 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 25
+[23-May-2025 21:02:25 Europe/Berlin] PHP Warning:  Undefined variable $i in C:\Users\asd\Desktop\www\app\views\rooms\edit.php on line 26
+[23-May-2025 21:20:27 Europe/Berlin] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`hotel`.`reservations`, CONSTRAINT `reservations_ibfk_1` FOREIGN KEY (`room_id`) REFERENCES `rooms` (`id`))
+[24-May-2025 17:26:09 Europe/Berlin] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`hotel`.`reservations`, CONSTRAINT `reservations_ibfk_1` FOREIGN KEY (`room_id`) REFERENCES `rooms` (`id`))
+[30-May-2025 21:46:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function execSql() in C:\Users\asd\Desktop\www\app\views\reservations\index.php:6
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\views\View.php(24): include()
+#1 C:\Users\asd\Desktop\www\app\Controllers\Controller.php(27): App\Views\View::render('reservations/in...', Array)
+#2 C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php(17): App\Controllers\Controller->render('reservations/in...', Array)
+#3 C:\Users\asd\Desktop\www\app\Routing\Router.php(60): App\Controllers\ReservationController->index()
+#4 C:\Users\asd\Desktop\www\app\Routing\Router.php(28): App\Routing\Router->handleGetRequests('/reservations')
+#5 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('GET', '/reservations')
+#6 C:\Users\asd\Desktop\www\public\index.php(51): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 6
+[30-May-2025 21:49:35 Europe/Berlin] PHP Warning:  Array to string conversion in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 12
+[30-May-2025 21:50:08 Europe/Berlin] PHP Warning:  Array to string conversion in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 13
+[30-May-2025 21:55:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "<", expecting "->" or "?->" or "{" or "[" in C:\Users\asd\Desktop\www\app\views\rooms\index.php on line 8
+[30-May-2025 21:56:19 Europe/Berlin] PHP Warning:  Undefined variable $room_number in C:\Users\asd\Desktop\www\app\views\rooms\index.php on line 5
+[30-May-2025 21:56:19 Europe/Berlin] PHP Warning:  Undefined property: App\Models\Room::$ in C:\Users\asd\Desktop\www\app\views\rooms\index.php on line 5
+[30-May-2025 21:56:19 Europe/Berlin] PHP Warning:  Undefined variable $room_number in C:\Users\asd\Desktop\www\app\views\rooms\index.php on line 5
+[30-May-2025 21:56:19 Europe/Berlin] PHP Warning:  Undefined property: App\Models\Room::$ in C:\Users\asd\Desktop\www\app\views\rooms\index.php on line 5
+[30-May-2025 21:56:19 Europe/Berlin] PHP Warning:  Undefined variable $room_number in C:\Users\asd\Desktop\www\app\views\rooms\index.php on line 5
+[30-May-2025 21:56:19 Europe/Berlin] PHP Warning:  Undefined property: App\Models\Room::$ in C:\Users\asd\Desktop\www\app\views\rooms\index.php on line 5
+[30-May-2025 21:56:19 Europe/Berlin] PHP Warning:  Undefined variable $room_number in C:\Users\asd\Desktop\www\app\views\rooms\index.php on line 5
+[30-May-2025 21:56:19 Europe/Berlin] PHP Warning:  Undefined property: App\Models\Room::$ in C:\Users\asd\Desktop\www\app\views\rooms\index.php on line 5
+[30-May-2025 21:56:19 Europe/Berlin] PHP Warning:  Undefined variable $room_number in C:\Users\asd\Desktop\www\app\views\rooms\index.php on line 5
+[30-May-2025 21:56:19 Europe/Berlin] PHP Warning:  Undefined property: App\Models\Room::$ in C:\Users\asd\Desktop\www\app\views\rooms\index.php on line 5
+[30-May-2025 21:58:42 Europe/Berlin] PHP Warning:  Array to string conversion in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 13
+[30-May-2025 21:59:21 Europe/Berlin] PHP Warning:  Attempt to read property "room_number" on array in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 6
+[30-May-2025 22:01:03 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 6
+[30-May-2025 22:01:13 Europe/Berlin] PHP Warning:  Array to string conversion in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 10
+[30-May-2025 22:01:24 Europe/Berlin] PHP Warning:  Array to string conversion in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 11
+[30-May-2025 22:34:18 Europe/Berlin] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`hotel`.`reservations`, CONSTRAINT `reservations_ibfk_1` FOREIGN KEY (`room_id`) REFERENCES `rooms` (`id`))
+[30-May-2025 23:31:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[30-May-2025 23:32:32 Europe/Berlin] PHP Warning:  Undefined variable $reservations in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 7
+[30-May-2025 23:32:32 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 7
+[30-May-2025 23:33:09 Europe/Berlin] PHP Warning:  Undefined variable $reservations in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 8
+[30-May-2025 23:33:09 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 8
+[01-Jun-2025 19:57:58 Europe/Berlin] PHP Warning:  Undefined variable $reservations in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 19:57:58 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 20:04:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type App\Models\Reservation as array in C:\Users\asd\Desktop\www\app\views\reservations\index.php:6
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\views\View.php(24): include()
+#1 C:\Users\asd\Desktop\www\app\Controllers\Controller.php(27): App\Views\View::render('reservations/in...', Array)
+#2 C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php(17): App\Controllers\Controller->render('reservations/in...', Array)
+#3 C:\Users\asd\Desktop\www\app\Routing\Router.php(60): App\Controllers\ReservationController->index()
+#4 C:\Users\asd\Desktop\www\app\Routing\Router.php(28): App\Routing\Router->handleGetRequests('/reservations')
+#5 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('GET', '/reservations')
+#6 C:\Users\asd\Desktop\www\public\index.php(51): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 6
+[01-Jun-2025 21:02:13 Europe/Berlin] PHP Warning:  Undefined array key "test" in C:\Users\asd\Desktop\www\public\index.php on line 49
+[01-Jun-2025 21:02:43 Europe/Berlin] PHP Warning:  PHP Request Shutdown: Skipping numeric key 2 in Unknown on line 0
+[01-Jun-2025 21:02:44 Europe/Berlin] PHP Warning:  PHP Request Shutdown: Skipping numeric key 2 in Unknown on line 0
+[01-Jun-2025 21:02:45 Europe/Berlin] PHP Warning:  PHP Request Shutdown: Skipping numeric key 2 in Unknown on line 0
+[01-Jun-2025 21:04:22 Europe/Berlin] PHP Warning:  Undefined variable $reservations in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 21:04:22 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 21:58:54 Europe/Berlin] PHP Warning:  Undefined array key "reservations" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 8
+[01-Jun-2025 21:58:54 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 8
+[01-Jun-2025 21:59:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type int in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 21:59:25 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\asd\Desktop\www\app\views\reservations\create.php:9
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\views\View.php(24): include()
+#1 C:\Users\asd\Desktop\www\app\Controllers\Controller.php(27): App\Views\View::render('reservations/cr...', Array)
+#2 C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php(22): App\Controllers\Controller->render('reservations/cr...')
+#3 C:\Users\asd\Desktop\www\app\Routing\Router.php(110): App\Controllers\ReservationController->create()
+#4 C:\Users\asd\Desktop\www\app\Routing\Router.php(31): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 21:59:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type int in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 21:59:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\asd\Desktop\www\app\views\reservations\create.php:9
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\views\View.php(24): include()
+#1 C:\Users\asd\Desktop\www\app\Controllers\Controller.php(27): App\Views\View::render('reservations/cr...', Array)
+#2 C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php(22): App\Controllers\Controller->render('reservations/cr...')
+#3 C:\Users\asd\Desktop\www\app\Routing\Router.php(110): App\Controllers\ReservationController->create()
+#4 C:\Users\asd\Desktop\www\app\Routing\Router.php(31): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 21:59:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type int in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 21:59:41 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\asd\Desktop\www\app\views\reservations\create.php:9
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\views\View.php(24): include()
+#1 C:\Users\asd\Desktop\www\app\Controllers\Controller.php(27): App\Views\View::render('reservations/cr...', Array)
+#2 C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php(22): App\Controllers\Controller->render('reservations/cr...')
+#3 C:\Users\asd\Desktop\www\app\Routing\Router.php(110): App\Controllers\ReservationController->create()
+#4 C:\Users\asd\Desktop\www\app\Routing\Router.php(31): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 21:59:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type int in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 21:59:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\asd\Desktop\www\app\views\reservations\create.php:9
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\views\View.php(24): include()
+#1 C:\Users\asd\Desktop\www\app\Controllers\Controller.php(27): App\Views\View::render('reservations/cr...', Array)
+#2 C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php(22): App\Controllers\Controller->render('reservations/cr...')
+#3 C:\Users\asd\Desktop\www\app\Routing\Router.php(110): App\Controllers\ReservationController->create()
+#4 C:\Users\asd\Desktop\www\app\Routing\Router.php(31): App\Routing\Router->handlePostRequests('/reservations/c...')
+#5 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('POST', '/reservations/c...')
+#6 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:00:12 Europe/Berlin] PHP Warning:  Attempt to read property "room_number" on int in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:00:12 Europe/Berlin] PHP Warning:  Attempt to read property "room_number" on string in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:00:12 Europe/Berlin] PHP Warning:  Attempt to read property "room_number" on string in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:00:12 Europe/Berlin] PHP Warning:  Attempt to read property "room_number" on int in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:00:12 Europe/Berlin] PHP Warning:  Attempt to read property "room_number" on string in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:00:40 Europe/Berlin] PHP Warning:  Attempt to read property "room_number" on int in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:00:40 Europe/Berlin] PHP Warning:  Attempt to read property "room_number" on string in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:00:40 Europe/Berlin] PHP Warning:  Attempt to read property "room_number" on string in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:00:40 Europe/Berlin] PHP Warning:  Attempt to read property "room_number" on int in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:00:40 Europe/Berlin] PHP Warning:  Attempt to read property "room_number" on string in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:01:54 Europe/Berlin] PHP Warning:  Undefined array key "reservations" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 8
+[01-Jun-2025 22:01:57 Europe/Berlin] PHP Warning:  Undefined array key "reservations" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 8
+[01-Jun-2025 22:02:02 Europe/Berlin] PHP Warning:  Undefined array key "reservations" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 8
+[01-Jun-2025 22:02:09 Europe/Berlin] PHP Warning:  Undefined array key "reservations" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 8
+[01-Jun-2025 22:11:18 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property App\Models\Reservation::$guest_id of type ?int in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php:43
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\Routing\Router.php(105): App\Controllers\ReservationController->save(Array)
+#1 C:\Users\asd\Desktop\www\app\Routing\Router.php(31): App\Routing\Router->handlePostRequests('/reservations')
+#2 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('POST', '/reservations')
+#3 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php on line 43
+[01-Jun-2025 22:14:06 Europe/Berlin] PHP Warning:  Undefined array key "rooms" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 8
+[01-Jun-2025 22:14:06 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 8
+[01-Jun-2025 22:15:16 Europe/Berlin] PHP Warning:  Undefined array key "rooms" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 8
+[01-Jun-2025 22:15:16 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 8
+[01-Jun-2025 22:15:16 Europe/Berlin] PHP Warning:  Undefined array key "guests" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 16
+[01-Jun-2025 22:15:16 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 16
+[01-Jun-2025 22:15:44 Europe/Berlin] PHP Warning:  Undefined array key "guests" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 16
+[01-Jun-2025 22:15:44 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 16
+[01-Jun-2025 22:18:54 Europe/Berlin] PHP Warning:  Undefined array key "reservations" in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 8
+[01-Jun-2025 22:18:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 8
+[01-Jun-2025 22:18:54 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\Users\asd\Desktop\www\app\views\reservations\index.php:8
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\views\reservations\index.php(8): in_array(5, NULL)
+#1 C:\Users\asd\Desktop\www\app\views\View.php(24): include('C:\\Users\\asd\\De...')
+#2 C:\Users\asd\Desktop\www\app\Controllers\Controller.php(27): App\Views\View::render('reservations/in...', Array)
+#3 C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php(17): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\Users\asd\Desktop\www\app\Routing\Router.php(60): App\Controllers\ReservationController->index()
+#5 C:\Users\asd\Desktop\www\app\Routing\Router.php(28): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 8
+[01-Jun-2025 22:19:02 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 11
+[01-Jun-2025 22:19:02 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\Users\asd\Desktop\www\app\views\reservations\index.php:11
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\views\reservations\index.php(11): in_array(5, NULL)
+#1 C:\Users\asd\Desktop\www\app\views\View.php(24): include('C:\\Users\\asd\\De...')
+#2 C:\Users\asd\Desktop\www\app\Controllers\Controller.php(27): App\Views\View::render('reservations/in...', Array)
+#3 C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php(17): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\Users\asd\Desktop\www\app\Routing\Router.php(60): App\Controllers\ReservationController->index()
+#5 C:\Users\asd\Desktop\www\app\Routing\Router.php(28): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 11
+[01-Jun-2025 22:19:31 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 11
+[01-Jun-2025 22:19:31 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\Users\asd\Desktop\www\app\views\reservations\index.php:11
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\views\reservations\index.php(11): in_array(5, NULL)
+#1 C:\Users\asd\Desktop\www\app\views\View.php(24): include('C:\\Users\\asd\\De...')
+#2 C:\Users\asd\Desktop\www\app\Controllers\Controller.php(27): App\Views\View::render('reservations/in...', Array)
+#3 C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php(17): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\Users\asd\Desktop\www\app\Routing\Router.php(60): App\Controllers\ReservationController->index()
+#5 C:\Users\asd\Desktop\www\app\Routing\Router.php(28): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 11
+[01-Jun-2025 22:19:32 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 11
+[01-Jun-2025 22:19:32 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\Users\asd\Desktop\www\app\views\reservations\index.php:11
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\views\reservations\index.php(11): in_array(5, NULL)
+#1 C:\Users\asd\Desktop\www\app\views\View.php(24): include('C:\\Users\\asd\\De...')
+#2 C:\Users\asd\Desktop\www\app\Controllers\Controller.php(27): App\Views\View::render('reservations/in...', Array)
+#3 C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php(17): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\Users\asd\Desktop\www\app\Routing\Router.php(60): App\Controllers\ReservationController->index()
+#5 C:\Users\asd\Desktop\www\app\Routing\Router.php(28): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 11
+[01-Jun-2025 22:19:35 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 11
+[01-Jun-2025 22:19:35 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\Users\asd\Desktop\www\app\views\reservations\index.php:11
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\views\reservations\index.php(11): in_array(5, NULL)
+#1 C:\Users\asd\Desktop\www\app\views\View.php(24): include('C:\\Users\\asd\\De...')
+#2 C:\Users\asd\Desktop\www\app\Controllers\Controller.php(27): App\Views\View::render('reservations/in...', Array)
+#3 C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php(17): App\Controllers\Controller->render('reservations/in...', Array)
+#4 C:\Users\asd\Desktop\www\app\Routing\Router.php(60): App\Controllers\ReservationController->index()
+#5 C:\Users\asd\Desktop\www\app\Routing\Router.php(28): App\Routing\Router->handleGetRequests('/reservations')
+#6 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('GET', '/reservations')
+#7 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 11
+[01-Jun-2025 22:20:10 Europe/Berlin] PHP Warning:  Undefined array key "rooms" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 8
+[01-Jun-2025 22:20:10 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 8
+[01-Jun-2025 22:21:59 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\Users\asd\Desktop\www\app\views\rooms\index.php on line 7
+[01-Jun-2025 22:21:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\Users\asd\Desktop\www\app\views\rooms\index.php:7
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\views\rooms\index.php(7): in_array(2, NULL)
+#1 C:\Users\asd\Desktop\www\app\views\View.php(24): include('C:\\Users\\asd\\De...')
+#2 C:\Users\asd\Desktop\www\app\Controllers\Controller.php(27): App\Views\View::render('rooms/index', Array)
+#3 C:\Users\asd\Desktop\www\app\Controllers\RoomController.php(17): App\Controllers\Controller->render('rooms/index', Array)
+#4 C:\Users\asd\Desktop\www\app\Routing\Router.php(52): App\Controllers\RoomController->index()
+#5 C:\Users\asd\Desktop\www\app\Routing\Router.php(28): App\Routing\Router->handleGetRequests('/rooms')
+#6 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('GET', '/rooms')
+#7 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#8 {main}
+  thrown in C:\Users\asd\Desktop\www\app\views\rooms\index.php on line 7
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:22:14 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:22:23 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:25:02 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "room_number" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 9
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[01-Jun-2025 22:29:00 Europe/Berlin] PHP Warning:  Undefined array key "name" in C:\Users\asd\Desktop\www\app\views\reservations\create.php on line 17
+[02-Jun-2025 23:42:48 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\edit.php on line 11
+[02-Jun-2025 23:42:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\asd\Desktop\www\app\views\reservations\edit.php on line 11
+[02-Jun-2025 23:42:48 Europe/Berlin] PHP Warning:  Undefined array key "floor" in C:\Users\asd\Desktop\www\app\views\reservations\edit.php on line 11
+[02-Jun-2025 23:42:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\Users\asd\Desktop\www\app\views\reservations\edit.php on line 11
+[02-Jun-2025 23:49:01 Europe/Berlin] PHP Warning:  Undefined variable $guest in C:\Users\asd\Desktop\www\app\views\reservations\edit.php on line 7
+[02-Jun-2025 23:49:01 Europe/Berlin] PHP Warning:  Attempt to read property "id" on null in C:\Users\asd\Desktop\www\app\views\reservations\edit.php on line 7
+[03-Jun-2025 15:08:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "App\Controllers\Database" not found in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php:37
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\Routing\Router.php(105): App\Controllers\ReservationController->save(Array)
+#1 C:\Users\asd\Desktop\www\app\Routing\Router.php(31): App\Routing\Router->handlePostRequests('/reservations')
+#2 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('POST', '/reservations')
+#3 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php on line 37
+[03-Jun-2025 15:43:02 Europe/Berlin] PHP Parse error:  Unclosed '{' on line 7 in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php on line 121
+[03-Jun-2025 15:43:31 Europe/Berlin] PHP Warning:  Undefined variable $date in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php on line 80
+[03-Jun-2025 15:43:31 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php on line 80
+[03-Jun-2025 15:49:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Attempt to assign property "room_id" on array in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php:89
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\Routing\Router.php(137): App\Controllers\ReservationController->update(6, Array)
+#1 C:\Users\asd\Desktop\www\app\Routing\Router.php(34): App\Routing\Router->handlePatchRequests('/reservations')
+#2 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('PATCH', '/reservations')
+#3 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php on line 89
+[03-Jun-2025 18:54:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Attempt to assign property "room_id" on array in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php:89
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\Routing\Router.php(137): App\Controllers\ReservationController->update(6, Array)
+#1 C:\Users\asd\Desktop\www\app\Routing\Router.php(34): App\Routing\Router->handlePatchRequests('/reservations')
+#2 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('PATCH', '/reservations')
+#3 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php on line 89
+[03-Jun-2025 22:01:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Attempt to assign property "room_id" on array in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php:87
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\Routing\Router.php(137): App\Controllers\ReservationController->update(21, Array)
+#1 C:\Users\asd\Desktop\www\app\Routing\Router.php(34): App\Routing\Router->handlePatchRequests('/reservations')
+#2 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('PATCH', '/reservations')
+#3 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php on line 87
+[03-Jun-2025 22:04:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Attempt to assign property "room_id" on array in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php:81
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\Routing\Router.php(137): App\Controllers\ReservationController->update(21, Array)
+#1 C:\Users\asd\Desktop\www\app\Routing\Router.php(34): App\Routing\Router->handlePatchRequests('/reservations')
+#2 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('PATCH', '/reservations')
+#3 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php on line 81
+[03-Jun-2025 22:07:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Attempt to assign property "room_id" on array in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php:82
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\Routing\Router.php(137): App\Controllers\ReservationController->update(21, Array)
+#1 C:\Users\asd\Desktop\www\app\Routing\Router.php(34): App\Routing\Router->handlePatchRequests('/reservations')
+#2 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('PATCH', '/reservations')
+#3 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php on line 82
+[03-Jun-2025 22:07:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Attempt to assign property "room_id" on array in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php:82
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\Routing\Router.php(137): App\Controllers\ReservationController->update(21, Array)
+#1 C:\Users\asd\Desktop\www\app\Routing\Router.php(34): App\Routing\Router->handlePatchRequests('/reservations')
+#2 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('PATCH', '/reservations')
+#3 C:\Users\asd\Desktop\www\public\index.php(50): App\Routing\Router->handle()
+#4 {main}
+  thrown in C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php on line 82
+[03-Jun-2025 23:38:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Display" not found in C:\Users\asd\Desktop\www\app\views\reservations\index.php:4
+Stack trace:
+#0 C:\Users\asd\Desktop\www\app\views\View.php(24): include()
+#1 C:\Users\asd\Desktop\www\app\Controllers\Controller.php(27): App\Views\View::render('reservations/in...', Array)
+#2 C:\Users\asd\Desktop\www\app\Controllers\ReservationController.php(18): App\Controllers\Controller->render('reservations/in...', Array)
+#3 C:\Users\asd\Desktop\www\app\Routing\Router.php(60): App\Controllers\ReservationController->index()
+#4 C:\Users\asd\Desktop\www\app\Routing\Router.php(28): App\Routing\Router->handleGetRequests('/reservations')
+#5 C:\Users\asd\Desktop\www\app\Routing\Router.php(21): App\Routing\Router->dispatch('GET', '/reservations')
+#6 C:\Users\asd\Desktop\www\public\index.php(59): App\Routing\Router->handle()
+#7 {main}
+  thrown in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 4
+[03-Jun-2025 23:45:27 Europe/Berlin] PHP Warning:  Undefined array key "warning_message" in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 5
+[03-Jun-2025 23:45:34 Europe/Berlin] PHP Warning:  Undefined array key "warning_message" in C:\Users\asd\Desktop\www\app\views\reservations\index.php on line 5
+[03-Jun-2025 23:49:58 Europe/Berlin] PHP Warning:  Undefined variable $output in C:\Users\asd\Desktop\www\app\views\Display.php on line 45

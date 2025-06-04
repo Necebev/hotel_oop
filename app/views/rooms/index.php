@@ -1,12 +1,12 @@
 <?php
-
 $tableBody = "";
 foreach ($rooms as $room) {
+    
+    $room_number = $room->room_number < 10 ? 0 . $room->room_number : $room->room_number;
     $tableBody .= <<<HTML
             <tr>
                 <td>{$room->id}</td>
-                <td>{$room->floor}</td>
-                <td>{$room->room_number}</td>
+                <td>{$room->floor}{$room_number}</td>
                 <td>{$room->space}</td>
                 <td>{$room->price}</td>
                 <td>{$room->note}</td>
@@ -30,7 +30,6 @@ $html = <<<HTML
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>Emelet</th>
                     <th>Szobaszám</th>
                     <th>Férőhelyek</th>
                     <th>Ár</th>

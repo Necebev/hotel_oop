@@ -32,21 +32,29 @@
             ");
             $install->execSql("
             INSERT INTO guests (id, name, age) VALUES
-            (1, 'Clara Nabaggala', 32),
-            (2, 'Ssali Kyaligonza', 24),
-            (3, 'Mbabazi Cristal', 27),
-            (4, 'Isabel Orishaba', 45),
-            (5, 'Esther Nalweyiso', 50),
-            (6, 'Maria Nanyombi', 19),
-            (7, 'Willis Ssettende', 46),
+            (1, 'Yaminah Salman', 32),
+            (2, 'Mashal Khalid', 24),
+            (3, 'Noreen Sawaya', 27),
+            (4, 'Mahammed Amini', 45),
+            (5, 'Hanif Arafat', 50),
+            (6, 'Ziyad Shakir', 19),
+            (7, 'Furat Akbar', 46),
             (8, 'Uvuvwevwevwe Onyetenyevwe Ugwemuhwem Osas', 28),
             (9, 'Kis Abadul', 23);
             ");
+
+            $install->execSql("
+                INSERT INTO reservations (id, room_id, guest_id, days, date) VALUES
+                (1, 1, 1, 3, '2023-10-01'),
+                (2, 2, 2, 5, '2023-10-02'),
+                (3, 3, 3, 2, '2023-10-03'),
+                (4, 4, 4, 4, '2023-10-04'),
+                (5, 5, 5, 1, '2023-10-05'),
+                (6, 6, 6, 7, '2023-10-06');");
         }
         
         
         
-
         $router = new Router();
         $router->handle();
         

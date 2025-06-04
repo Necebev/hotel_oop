@@ -2,6 +2,7 @@
 namespace App\Controllers;
 use App\Models\Reservation;
 use App\Views\Display;
+use App\Database\Database;
 
 class ReservationController extends Controller {
 
@@ -34,11 +35,23 @@ class ReservationController extends Controller {
 
     public function save(array $data): void
     {
+        $date = Database::getInstance()->execSql("SELECT id, date, days, room_id FROM reservations where room_id = {$data['room_id']}");
         if (empty($data['room_id']) || empty($data['guest_id']) || empty($data['days']) || empty($data['date'])) {   
             $_SESSION['warning_message'] = "ReservationController: save()";
             $this->redirect('/reservations/create'); // Redirect if input is invalid
         }
         // Use the existing model instance
+        $currentStartDate = strtotime($data['date']);
+        $currentEndDate = strtotime($data['date'] . ' + ' . $data['days'] . ' days');
+        foreach ($date as $reservation) {
+            $existingStartDate = strtotime($reservation['date']);
+            $existingEndDate = strtotime($reservation['date'] . ' + ' . $reservation['days'] . ' days');
+            if (!($currentStartDate > $existingEndDate || $currentEndDate < $existingStartDate)) {
+                $this->redirect('/reservations');
+                $_SESSION['warning_message'] = "Ütközik a foglalás! Kérem, válasszon másik szobát vagy időpontot.";
+            }
+        }
+        $_SESSION['success_message'] = "Sikeresen hozzáadva";
         $this->model->room_id = $data['room_id'];
         $this->model->guest_id = $data['guest_id'];
         $this->model->days = $data['days'];
@@ -49,15 +62,28 @@ class ReservationController extends Controller {
 
     public function update(int $id, array $data): void
     {
+        $date = Database::getInstance()->execSql("SELECT * FROM reservations where room_id = {$data['room_id']}");
         $reservation = $this->model->find($id);
-        if (!empty($data['room_id']) || !empty($data['guest_id']) || !empty($data['days']) || !empty($data['date'])) {
+        if (!$reservation || empty($data['room_id']) || empty($data['guest_id']) || empty($data['days']) || empty($data['date'])) {
             // Handle invalid ID or data
             $this->redirect('/reservations');
         }
-        $this->model->room_id = $data['room_id'];
-        $this->model->guest_id = $data['guest_id'];
-        $this->model->days = $data['days'];
-        $this->model->date = $data['date'];
+        // Use the existing model instance
+        $currentStartDate = strtotime($data['date']);
+        $currentEndDate = strtotime($data['date'] . ' + ' . $data['days'] . ' days');
+        foreach ($date as $existingReservation) {
+            $existingStartDate = strtotime($existingReservation['date']);
+            $existingEndDate = strtotime($existingReservation['date'] . ' + ' . $existingReservation['days'] . ' days');
+            if (!($currentStartDate > $existingEndDate || $currentEndDate < $existingStartDate) && $existingReservation['id'] != $id) {
+                $_SESSION['warning_message'] = "Ütközik a foglalás! Kérem, válasszon másik szobát vagy időpontot.";
+                $this->redirect('/reservations');
+            }
+        }
+        $_SESSION['success_message'] = "Sikeresen frissítve";
+        $reservation->room_id = $data['room_id'];
+        $reservation->guest_id = $data['guest_id'];
+        $reservation->days = $data['days'];
+        $reservation->date = $data['date'];
         $reservation->update();
         $this->redirect('/reservations');
     }
